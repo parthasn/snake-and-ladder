@@ -15,9 +15,12 @@ img{
 }
 
 .dice-container{
+    margin-top: 30px;
     display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .container{
@@ -33,6 +36,10 @@ img{
     box-shadow: 1px 1px #ffffff;
 }
 
+/* .dice-id{
+    border: 1px solid black;
+} */
+
 button{
     background-color: #e92e3d;
     height: 20%;
@@ -40,11 +47,10 @@ button{
     outline: none;
     color: #ffffff;
     padding: 15px;
-    width: 100%;
+    width: 30%;
     letter-spacing: 1px;
     border-radius: 5px;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 10px;
     box-shadow: 1px 1px #ffffff;
 }
 
