@@ -62,7 +62,7 @@ const createBoard = (matrixArray) => {
 
 const rollDice = () => {
     const diceValue = Math.ceil(Math.random()*6)
-    console.log({diceValue})
+    // console.log({diceValue})
     let diceDiv = document.querySelector('#dice-id')
     diceDiv.innerHTML = `Dice value : ${diceValue}`
     changePosition(diceValue)
